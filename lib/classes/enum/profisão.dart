@@ -1,0 +1,1 @@
+enum PessoaProfisao { programador, pisicologo, medigo, adevogado}

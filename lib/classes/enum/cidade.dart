@@ -1,0 +1,2 @@
+
+enum MoraCidade { RECIFE, PIRAPORA, CAMPINAS, NENHUM }

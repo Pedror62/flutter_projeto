@@ -1,0 +1,2 @@
+
+enum TipoNotificao {SMS, NOTIFICATION, EMAIL,NENHUM }
