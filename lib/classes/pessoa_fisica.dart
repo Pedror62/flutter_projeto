@@ -29,7 +29,7 @@ class PessoaFisica extends pessoa{
     "endereco": super.getEndereco(),
     "CPF": _cpf,
     "TipoNotificao": getTipoNotificacao(),
-    "MoraCidade": getMoraCidade()
+   
   }.toString(); 
   }
 }  

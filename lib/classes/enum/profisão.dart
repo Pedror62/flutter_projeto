@@ -1,1 +1,2 @@
-enum PessoaProfisao { programador, pisicologo, medigo, adevogado}
+
+enum ProfisaoAtual { PROGRAMADOR, ADVOGADO, MEDICO, AUTONOMO }
