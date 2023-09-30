@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:meu_app_oo/classes/enum/cidade.dart';
 import 'package:meu_app_oo/classes/enum/profis%C3%A3o.dart';
 import 'package:meu_app_oo/classes/pessoa.dart';
 import 'package:meu_app_oo/classes/enum/tipo_notification.dart';
@@ -17,8 +18,8 @@ class PessoaJuridica extends pessoa{
  
 PessoaJuridica(
 String name, String endereco, String cnpj,
- TipoNotificao tiponotificao, ProfisaoAtual profisaoAtual )
- :super(name, endereco, tipoNotificao: tiponotificao, profisaoAtual: profisaoAtual ){
+ TipoNotificao tiponotificao, ProfisaoAtual profisaoAtual, MoraCidade moraCidade )
+ :super(name, endereco, tipoNotificao: tiponotificao, profisaoAtual: profisaoAtual, moraCidade: moraCidade ){
  _cnpj = cnpj;
 
 }
@@ -33,7 +34,7 @@ String name, String endereco, String cnpj,
     "CNPJ": _cnpj,
     "TipoNotificao": getTipoNotificacao(),
      "MoraCidade": getMoraCidade(),
-     "MoraCidade": getProfisaoAtual()
+     "ProfisaoAtual": getProfisaoAtual()
    
     
   }.toString(); 

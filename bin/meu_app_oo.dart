@@ -12,10 +12,10 @@ void main(List<String> arguments){
   print(PessoaFisica1);
   
    
-    var PessoaJuridica1 = PessoaJuridica("marcelo", "avenida 8", "12,2165185156151",TipoNotificao.SMS, ProfisaoAtual.AUTONOMO);
+    var PessoaJuridica1 = PessoaJuridica("marcelo", "avenida 8", "12,2165185156151",TipoNotificao.SMS, ProfisaoAtual.AUTONOMO, MoraCidade.CAMPINAS);
   print(PessoaJuridica1);
 
-    var PessoaJuridica2 = PessoaJuridica("Ana", "rua 5", "12,21651865485",TipoNotificao.NENHUM, ProfisaoAtual.MEDICO);
+    var PessoaJuridica2 = PessoaJuridica("Ana", "rua 5", "12,21651865485",TipoNotificao.NENHUM, ProfisaoAtual.MEDICO, MoraCidade.NENHUM);
   print(PessoaJuridica2);
 
      var PessoaFisica2 =  PessoaFisica("Antony", "rua casimor", "2654308206856", TipoNotificao.EMAIL, MoraCidade.CAMPINAS );
